@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_bookmark_title"
+                android:layout_width="match_parent"
+                android:textColor="#F61B1B"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sub item title"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tvBookmark_Des"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Description goes here..."/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv_bookmark_time"
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="wrap_content"
+                    android:text="2 min read"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="200dp">
+            <ImageView
+                android:id="@+id/img_bookmark_item"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="#EDECEC"
+                android:src="@drawable/ic_launcher_foreground"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/save_second"
+                android:id="@+id/btn_Save_bookmark"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="visible"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#E8E2E2"/>
+</LinearLayout>

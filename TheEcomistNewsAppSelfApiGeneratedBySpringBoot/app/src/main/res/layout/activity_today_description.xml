@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TodayDescriptionActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/item_img_today_des"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="BUSINESS"
+        android:layout_marginStart="15dp"
+        android:paddingTop="5dp"
+        android:id="@+id/tv_author_today_des"
+        android:paddingBottom="5dp"
+        android:textColor="#FA0C0C"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Oil supermajors' mega-bet on natural gas"
+        android:textSize="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+        android:id="@+id/tvTitle_today_des"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/tv_Description_today_des"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/today_brief_des"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8sp"
+            android:layout_marginStart="15dp"
+            android:background="@color/black"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="7sp"
+        android:layout_marginBottom="7sp"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 min read"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/save_first"
+            android:id="@+id/btn_bookmark_today_item_des"
+            android:layout_gravity="end"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            />
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

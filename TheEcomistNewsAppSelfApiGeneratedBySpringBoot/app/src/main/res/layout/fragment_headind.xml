@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".HeadindFragment">
+<TextView
+    android:layout_width="wrap_content"
+    android:text="Section"
+    android:layout_margin="5dp"
+    android:textSize="24dp"
+    android:textStyle="bold"
+    android:textColor="#FF0000"
+    android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="wrap_content"
+        android:id="@+id/h_rv"/>
+
+</LinearLayout>

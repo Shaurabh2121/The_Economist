@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "301793406928",
+    "project_id": "the-economist-4008a",
+    "storage_bucket": "the-economist-4008a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301793406928:android:7edc4d481f5a79e0a053d5",
+        "android_client_info": {
+          "package_name": "com.example.TheEconomist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301793406928-rfo5prp6nq8i1coq593oe4qqh0rv05np.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.TheEconomist",
+            "certificate_hash": "3fc607bff0c247e0f570a2474e17b6ff83ed5a32"
+          }
+        },
+        {
+          "client_id": "301793406928-9jan1sm9jmfcs0k79uag348e2rdl1aaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJFpBj0hV5AA5rloictAByrIR1CNLYL-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301793406928-9jan1sm9jmfcs0k79uag348e2rdl1aaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

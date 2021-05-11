@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_today"
+        android:icon="@drawable/ic_baseline_wb_sunny_24"
+        android:title="Today" />
+
+    <item
+        android:id="@+id/navigation_weekly"
+        android:icon="@drawable/ic_baseline_amp_stories_24"
+        android:title="Weekly" />
+
+    <item
+        android:id="@+id/navigation_saved"
+        android:icon="@drawable/ic_baseline_bookmarks_24"
+        android:title="Saved" />
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_baseline_manage_search_24"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Settings" />
+
+</menu>

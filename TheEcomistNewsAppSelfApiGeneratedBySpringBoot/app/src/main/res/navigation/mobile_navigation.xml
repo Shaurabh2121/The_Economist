@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_today">
+
+    <fragment
+        android:id="@+id/navigation_today"
+        android:name="com.example.TheEconomist.ui.TodayFragment"
+        android:label="Today"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_weekly"
+        android:name="com.example.TheEconomist.ui.WeeklyFragment"
+        android:label="Weekly"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_saved"
+        android:name="com.example.TheEconomist.ui.SavedFragment"
+        android:label="Saved"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.TheEconomist.ui.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.TheEconomist.ui.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <dialog
+        android:id="@+id/headindFragment"
+        android:name="com.example.TheEconomist.HeadindFragment"
+        android:label="fragment_headind"
+        tools:layout="@layout/fragment_headind" /><action android:id="@+id/action_global_navigation_weekly" app:destination="@id/navigation_weekly"/><action android:id="@+id/action_global_headindFragment" app:destination="@id/headindFragment"/><action android:id="@+id/action_global_navigation_saved" app:destination="@id/navigation_saved"/>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.TheEconomist.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.TheEconomist.ui.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <action android:id="@+id/action_global_signUpFragment" app:destination="@id/signUpFragment" />
+    <action android:id="@+id/action_global_loginFragment" app:destination="@id/loginFragment" />
+    <action android:id="@+id/action_global_navigation_settings" app:destination="@id/navigation_settings" />
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.example.TheEconomist.ui.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" /><action android:id="@+id/action_global_userProfileFragment" app:destination="@id/userProfileFragment"/>
+</navigation>

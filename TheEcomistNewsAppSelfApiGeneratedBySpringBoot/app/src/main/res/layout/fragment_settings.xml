@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.SettingsFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Settings"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0F2B91"
+        android:text="Log in"
+        android:id="@+id/tvLogin"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"
+        android:padding="15dp"/>
+</RelativeLayout>
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+        tools:ignore="UseSwitchCompatOrMaterialXml">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3C3B3B"
+        android:text="Dark mode"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:padding="15dp"/>
+<Switch
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:padding="15dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseSwitchCompatOrMaterialXml">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3C3B3B"
+            android:text="Audio auto-download"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:padding="15dp"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="15dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseSwitchCompatOrMaterialXml">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3C3B3B"
+            android:text="Background downloads"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:padding="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Wi-fi"
+            android:layout_alignParentEnd="true"
+            android:textSize="20dp"
+            android:padding="15dp"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3C3B3B"
+        android:text="Notification"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3C3B3B"
+        android:text="Contact us"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3C3B3B"
+        android:text="About"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3C3B3B"
+        android:text="Term of use"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3C3B3B"
+        android:text="Privacy policy"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:padding="15dp"/>
+
+</LinearLayout>
